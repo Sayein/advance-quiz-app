@@ -15,8 +15,7 @@ let counter=0;
 let url= new URLSearchParams(window.location.search);
 let topic= url.get('topic');
 
-fetch("https://vaulted-helix-belief.glitch.me/start")   
-// fetch("http://127.0.0.1:5501/start")   
+fetch("https://vaulted-helix-belief.glitch.me/start")     
    .then((response)=>response.json())
    .then((data) => {
            main(data);        
@@ -39,6 +38,7 @@ fetch("https://vaulted-helix-belief.glitch.me/start")
         }
         questionNumber.innerText=questionNo+". ";
         numberOfQuestion.textContent=`${questionNo}/${matchedTopic.length}`;
+        document.querySelector(".quiz-box").classList.remove("loading");
 
         // looping through answers nodelist
         answerBtn.forEach((elem,i)=>{
