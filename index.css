@@ -424,6 +424,11 @@ body {
     color: black;
 }
 
+h2{
+     display:flex;
+     font-size: 25px;
+     padding-bottom: 30px;
+}
 
 .incorrect{
     background-color: #ff9393;
