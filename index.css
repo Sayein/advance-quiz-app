@@ -324,8 +324,9 @@ body {
 }
 
 .intro-div h1{
- font-size: 35px;
- text-align: center;
+     font-size: 35px;
+     text-align: center;
+     padding-bottom: 30px;
 }
 
 .topic-btn-box{
@@ -369,12 +370,6 @@ body {
   padding-bottom: 30px;
   padding-left: 33px;
   display: none;
-}
-
-h1{
-    display: flex;
-    font-size: 25px;
-    padding-bottom: 30px;
 }
 
 .nxt-btn{
