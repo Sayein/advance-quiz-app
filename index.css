@@ -321,7 +321,10 @@ body {
         display: block;
         text-align: center;
         padding:100px 0 100px 0;
-        font-size: 35px;
+}
+
+.intro-div h1{
+ font-size: 35px;
 }
 
 .topic-btn-box{
